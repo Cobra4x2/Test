@@ -5,7 +5,7 @@ from playwright.async_api import async_playwright
 
 M3U8_FILE = "StreamTP11.m3u8"
 BASE_URL = "https://streamtp11.com/"
-CHANNEL_LIST_URL = f"{BASE_URL}/tv"
+CHANNEL_LIST_URL = f"{BASE_URL}"
 
 SECTIONS_TO_APPEND = {
     "/nba": "NBA",
